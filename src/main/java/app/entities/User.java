@@ -6,18 +6,18 @@ import lombok.RequiredArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Table (name = "VENDORS")
+@Table (name = "USERS")
 @RequiredArgsConstructor
 @Getter
-public class Vendors {
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long vendorId;
-
-    @Column (nullable = false)
-    private String name;
+    private Long userId;
 
     @Column (nullable = false, unique = true)
-    private String address;
+    private String userMail;
+
+    @Column (nullable = false)
+    private String password;
 }

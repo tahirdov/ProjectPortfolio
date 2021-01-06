@@ -3,8 +3,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c64e71-a627-4c04-8ae7-b0eb9fe4e88c" name="Default Changelist" comment="" />
+    <list default="true" id="f0c64e71-a627-4c04-8ae7-b0eb9fe4e88c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/MerchantRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/TokenRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/WareRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Merchants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Merchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Vendors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Wares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Ware.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +43,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -25,6 +58,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1mKxl9xXOmMMSyrvZStQ7iol4ru" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,17 +102,39 @@
       <workItem from="1609256233527" duration="4000" />
       <workItem from="1609398568871" duration="136000" />
       <workItem from="1609480731128" duration="1932000" />
-      <workItem from="1609494684779" duration="329000" />
+      <workItem from="1609494684779" duration="424000" />
+      <workItem from="1609568387553" duration="528000" />
+      <workItem from="1609949450321" duration="687000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609949486238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609949486238" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1609398616596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609398616596" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1609949890201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609949890201" />
   </component>
 </project>

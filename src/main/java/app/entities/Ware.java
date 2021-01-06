@@ -11,7 +11,7 @@ import java.util.List;
 @Table (name = "WARES")
 @RequiredArgsConstructor
 @Getter
-public class Wares {
+public class Ware {
 
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
@@ -32,7 +32,7 @@ public class Wares {
     @Column (nullable = false)
     private Double price;
 
-    @OneToMany (cascade = CascadeType.ALL)
-    @JoinColumn(name = "wareId", referencedColumnName = "vendorId")
-    private List<Vendors> vendors;
+    @OneToOne
+    @JoinColumn(name = "wareId", referencedColumnName = "merchantId")
+    private Merchant merchant;
 }

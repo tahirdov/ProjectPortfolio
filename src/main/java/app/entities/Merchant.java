@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Table (name = "MERCHANTS")
 @RequiredArgsConstructor
 @Getter
-public class Merchants {
+public class Merchant {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -26,6 +26,6 @@ public class Merchants {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "merchantId", referencedColumnName = "userId")
-    private Users user;
+    private User user;
 
 }
