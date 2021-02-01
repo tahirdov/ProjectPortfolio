@@ -22,17 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c64e71-a627-4c04-8ae7-b0eb9fe4e88c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/entities/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/MerchantRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/TokenRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/repositories/WareRepo.java" afterDir="false" />
+    <list default="true" id="f0c64e71-a627-4c04-8ae7-b0eb9fe4e88c" name="Default Changelist" comment="- changes on entities&#10;- repositories implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/MySecConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/MyUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/jwt/JwtFIlter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/jwt/JwtManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/MerchantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/services/WareService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Merchants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Merchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Vendors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/Wares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/entities/Ware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repositories/UserRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,6 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Merchant" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -77,15 +80,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,8 +105,17 @@
       <workItem from="1609480731128" duration="1932000" />
       <workItem from="1609494684779" duration="424000" />
       <workItem from="1609568387553" duration="528000" />
-      <workItem from="1609949450321" duration="687000" />
+      <workItem from="1609949450321" duration="1168000" />
+      <workItem from="1612195054304" duration="1178000" />
     </task>
+    <task id="LOCAL-00001" summary="- changes on entities&#10;- repositories implemented">
+      <created>1609950387618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609950387618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,15 +133,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- changes on entities&#10;- repositories implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="- changes on entities&#10;- repositories implemented" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1612195392968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1612195392968" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609949486238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609949486238" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612195137590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612195137590" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1609398616596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609398616596" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609950391403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609950391403" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1609949890201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
